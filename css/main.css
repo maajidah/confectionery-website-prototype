@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+
+header {
+  text-align: center;
+
+}
+
+h1{
+  font-family: Gill Sans Extrabold, sans-serif;
+  color: white;
+  font-size: 30pt;
+}
+
+body {
+background-color: pink;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li{
+  display: inline-block;
+  padding: 0 2em;
+font-size: 30pt;
+}
+
+img {
+  width: 70%;
+
+}
